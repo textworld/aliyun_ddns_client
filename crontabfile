@@ -1,0 +1,1 @@
+* * * * * /curl.sh >> /var/log/curl.log 2>&1
