@@ -4,7 +4,6 @@ RUN apk --no-cache add curl
 
 ADD crontabfile /crontabfile
 ADD curl.sh /curl.sh
-RUN touch /var/log/curl.log
 RUN touch /var/log/cron.log
 RUN chmod 755 /curl.sh
 RUN /usr/bin/crontab /crontabfile
